@@ -1,9 +1,10 @@
+import math
 
 
 def fibonacci():
     f = 1
     s = 2
-    soma = 1
+    soma = 2
     n = 0
     while n <= 4000000:
         n = f + s
